@@ -68,11 +68,11 @@
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style="background: rgba(246, 246, 246, 0.75); border: none; padding: 20px;">
                   <li><a class="dropdown-item" href="ups.html">UPS</a></li>
-                  <li><a class="dropdown-item" href="#">AVR</a></li>
-                  <li><a class="dropdown-item" href="#">Batteries</a></li>
-                  <li><a class="dropdown-item" href="#">Solar Panels</a></li>
-                  <li><a class="dropdown-item" href="#">Switches/Sockets</a></li>
-                  <li><a class="dropdown-item" href="#">Lightening Systems</a></li>
+                  <li><a class="dropdown-item" href="avr.html">AVR</a></li>
+                  <li><a class="dropdown-item" href="batteries.html">Batteries</a></li>
+                  <li><a class="dropdown-item" href="solar.html">Solar Panels</a></li>
+                  <li><a class="dropdown-item" href="switches.html">Switches/Sockets</a></li>
+                  <li><a class="dropdown-item" href="ls.html">Lightening Systems</a></li>
                 </ul>
               </li>
 
@@ -92,7 +92,7 @@
       <div class="container-lg top" style="margin-bottom: 99px;">
         <div class="topi" style="background:url(/images/producti.jpg);">
           <h1>Products</h1>
-          <p>Home > <a href="" class="green">our products</a></p>
+          <p><a href="index.html" class="green">Home > </a> our products</p>
         </div>
       </div>
       <!-- main starts here -->
@@ -118,43 +118,43 @@
             <div class="pflex">
                <div class="">
                    <img src="/images/products/onUPS.png" alt="">
-                    <a href="">Online UPS (5)</a>
+                    <a href="ups.html">Online UPS (5)</a>
                </div>
             </div>
             <div class="pflex">
                <div class="">
                    <img src="/images/products/VOP.png" alt="">
-                   <a href="">Voltage Regulator</a>
+                   <a href="avr.html">Voltage Regulator</a>
                </div>
             </div>
             <div class="pflex">
                <div class="">
                    <img src="/images/products/INVT.png" alt="">
-                   <a href="">Inverters (3)</a>
+                   <a href="inverter.html">Inverters (3)</a>
                </div>
             </div>
             <div class="pflex">
                <div class="">
                    <img src="/images/products/LIGHT.png" alt="">
-                   <a href=""> Lightening Systems</a>
+                   <a href="ls.html"> Lightening Systems</a>
                </div>
             </div>
             <div class="pflex">
                <div class="">
                    <img src="/images/products/BATTERIES.png" alt="">
-                   <a href="">Batteries</a>
+                   <a href="batteries.html">Batteries</a>
                </div>
             </div>
             <div class="pflex">
                <div class="">
                    <img src="/images/products/SOOL.png" alt="">
-                   <a href="">Solar Panels</a>
+                   <a href="solar.html">Solar Panels</a>
                </div>
             </div>
             <div class="pflex">
                <div class="">
                    <img src="/images/products/SAS.png" alt="">
-                   <a href="">Switches and Sockets</a>
+                   <a href="switches.html">Switches and Sockets</a>
                </div>
             </div>
         </div>
@@ -200,7 +200,43 @@
       
                 <div class="hang2"  style="margin-top: 84px; ">
                   <img src="/images/practical.png" alt="">
-                  <a href=""> - Click to Register Now</a>
+                </button> 
+                <a href=""  class="" data-bs-toggle="modal" data-bs-target="#exampleModal"> - Click to Register Now</a>
+    
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+                    
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel" style="color: #088E3B; text-align: center;">Register now</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <form action="" class="modal-lg"></form>
+                        <div class="modal-body">
+                          <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Full Name</label>
+                            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="" required>
+                          </div>
+                          <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" required>
+                          </div>
+      
+                          <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Phone number</label>
+                            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="" required>
+    
+                            <small style="font-size: 10px;"> *Date, Schedule and Registration Details will be sent to your Email*</small>
+                          </div>
+                          
+                          <button type="submit" class="btn btn-success" style="background: #088E3B">Submit</button>
+                        </div>
+                      </form>
+                      </div>
+                   
+                  </div>
+                </div>
                 </div>
               </div>
 
@@ -209,13 +245,13 @@
             <h5>Quick links</h5>
             <div class="qp">
               <ul>
-                <li><a href="">COVID-19 Update </a></li>
-                <li><a href="">Products </a></li>
-                <li><a href="">Technical FAQs   </a></li>
-                <li><a href="">Product Documentation and Software downloads </a></li>
+                <!-- <li><a href="">COVID-19 Update </a></li> -->
+                <li><a href="products.html">Products </a></li>
+                <li><a href="faq.html">Technical FAQs   </a></li>
+                <li><a href="products.html">Product Documentation and Software downloads </a></li>
                 <li> <a href="">List of distributors </a></li>
-                <li> <a href="">Customer Care</a></li>
-                <li> <a href="">All Product Ranges  </a></li>
+                <li> <a href="tel:08076226707">Customer Care</a></li>
+                <li> <a href="products.html">All Product Ranges  </a></li>
               </ul>
             </div>
           </div>

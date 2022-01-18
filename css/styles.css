@@ -36,7 +36,7 @@ a {
     position: sticky;
     top: 0;
     z-index: 1;
-    background: #fff;
+    background: rgba(255, 255, 255, 0.897);
 }
 
 .nav-link {
@@ -675,7 +675,7 @@ height: 36px;
 background: #088E3B;
 border: none;
 border-radius: 4px;
-color: #C9C9C9;
+color: #e4e2e2;
 
 font-size: 12px;
 font-weight: 300;
@@ -896,7 +896,7 @@ article, #SupportService p {
 
 
 .vt2 {
-    margin: 107px 0;
+    margin: 37px 0;
 }
 
 
