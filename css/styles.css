@@ -734,8 +734,8 @@ color: #777777;
 
 /* about us........................... */
 .topi {
-    background-color: #aaaaaa;
-    background-image: url(images/up.jpg);
+    background-color: #a8a7a7;
+    background-image: url(../images/up.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
