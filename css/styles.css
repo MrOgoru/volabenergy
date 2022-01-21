@@ -21,12 +21,12 @@ a {
 .navi {
     display: flex;
     justify-content: space-between;
-    padding: 17px 40px;
+    padding: 1.063rem 40px;
 }
 
 .navi a {
     font-weight: 300;
-    font-size: 14px;
+    font-size: 0.875rem;
     margin: 10px;
     color: #575757;
 }
@@ -40,7 +40,7 @@ a {
 }
 
 .nav-link {
-    padding: 9px 20px !important;
+    padding: 9px 1.25rem !important;
     letter-spacing: 0.03em !important;
     
 }
@@ -56,7 +56,7 @@ a {
 
  .dropdown-item {
     padding: 10px;
-    font-size: 14px;
+    font-size: 0.875rem;
  }
 
  .dropdown-item:hover {
@@ -75,7 +75,7 @@ a {
 
      background: rgba(255, 255, 255, 0.71);
      justify-self: start;
-     padding:30px;
+     padding:1.875rem;
 
      display: relative;
      top: 40px;
@@ -166,14 +166,14 @@ a {
 
 .sli h3 {
     margin-top: 19px;
-    margin-left: 12px;
+    margin-left: 	0.75rem;
     font-size: 1.125rem;
     color: #088E3B;
 }
 
 .sli p {
-    font-size: 14px;
-    margin-left: 12px;
+    font-size: 0.875rem;
+    margin-left: 	0.75rem;
     font-family: 'DM Sans', sans-serif;
     max-width: 231px;
     line-height: 180.7%;
@@ -181,11 +181,11 @@ a {
 }
 
 .sli a {
-   margin-left: 12px;
+   margin-left: 	0.75rem;
     color: #088E3B;
-    font-size: 14px;
+    font-size: 0.875rem;
     position: absolute;
-    bottom: 20px;
+    bottom: 1.25rem;
 
     font-family: 'DM Sans', sans-serif;
 
@@ -212,7 +212,7 @@ a {
 .aa {
     text-align: left !important;
     color: #000;
-    font-size: 18px;
+    font-size: 1.063rem;
     text-transform: uppercase;
 }
 
@@ -231,7 +231,7 @@ a {
 }
 
 .products p {
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: 400;
 
     line-height: 1.6;
@@ -240,7 +240,7 @@ a {
 
 .products a {
     font-weight: 300;
-    font-size: 14px;
+    font-size: 0.875rem;
     color:#088E3B
 }
 .products a:hover {
@@ -248,7 +248,7 @@ a {
 }
 
 .prod {
-    margin-bottom: 24px;
+    margin-bottom: 1.5rem;
 }
 
 .training {
@@ -256,7 +256,7 @@ a {
     border: 1px solid rgba(8, 142, 59, 0.49);
     box-sizing: border-box;
     border-radius: 4px;
-    padding: 28px 15px;
+    padding: 28px 	0.9375rem;
     position: relative;
 }
 
@@ -278,14 +278,14 @@ a {
     height: 149px;  
 
     background: rgba(0, 0, 0, 0.4);
-    padding: 8px 15px;
-    margin-left: 30px;
+    padding: 8px 	0.9375rem;
+    margin-left: 1.875rem;
     margin-bottom: 36px;
 }
 
 .inf h4 {
     font-weight: 500;
-font-size: 14px;
+font-size: 0.875rem;
 line-height: 21px;
 letter-spacing: 0.01em;
 
@@ -294,7 +294,7 @@ color: #FFFFFF;
 
 .inf p {
     font-weight: 500;
-font-size: 24px;
+font-size: 1.5rem;
 line-height: 36px;
 letter-spacing: 0.01em;
 
@@ -310,15 +310,15 @@ background: #FFFFFF;
 border: 1px solid rgba(8, 142, 59, 0.49);
 box-sizing: border-box;
 border-radius: 4px;
-right: 15px;
+right: 	0.9375rem;
 bottom: 32px;
 
-padding: 30px 15px;
+padding: 1.875rem 	0.9375rem;
 }
 
 .form header {
     font-weight: 500;
-font-size: 14px;
+font-size: 0.875rem;
 line-height: 21px;
 /* identical to box height */
 
@@ -326,12 +326,12 @@ letter-spacing: 0.03em;
 text-transform: capitalize;
 
 text-align: center;
-margin-bottom: 24px;
+margin-bottom: 1.5rem;
 }
 
 .form span {
     display: flex;
-    margin-bottom: 24px;
+    margin-bottom: 1.5rem;
     justify-content: space-between;
 
    
@@ -352,7 +352,7 @@ margin-bottom: 24px;
 }
 
 input::placeholder {
-    font-size: 14px;
+    font-size: 0.875rem;
     color: rgba(95, 95, 95, 0.54);
 
 }
@@ -361,7 +361,7 @@ input::placeholder {
     width: 100%;
     height: 48px;
     color: #fff;
-    font-size: 18px;
+    font-size: 1.063rem;
 
     background: #088E3B;
     border: none;
@@ -379,21 +379,21 @@ input::placeholder {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 30px
+    padding: 1.25rem 1.875rem
 }
 
 .call a {
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 600;
     color: #333;
 }
 .call img {
-    width: 20px;
+    width: 1.25rem;
 }
 
 .call .p  {
     font-weight: 600;
-    font-size: 24px;
+    font-size: 1.5rem;
     line-height: 36px;
 
     color: #333333;
@@ -419,7 +419,7 @@ input::placeholder {
     border-radius: 4px;
 
   width: 437px;
-    padding: 50px 18px;
+    padding: 50px 1.063rem;
     
 }
 .cf1 img {
@@ -430,14 +430,14 @@ input::placeholder {
 .cf1 p {
     font-style: italic;
     font-weight: 300;
-    font-size: 12px;
+    font-size: 	0.75rem;
     line-height: 168.5%;
-    /* or 20px */
+    /* or 1.25rem */
 
     letter-spacing: 0.03em;
 
     color: #333333;
-    max-width: 330px;
+    max-width: 31.875rem;
     margin: 0;
 }
 
@@ -465,7 +465,7 @@ input::placeholder {
     background-image: url(/images/fss.png);
 
     padding-top: 51px;
-    padding-left: 24px; 
+    padding-left: 1.5rem; 
     padding-bottom: 55px;
 
     border-radius: 4px;
@@ -484,7 +484,7 @@ input::placeholder {
 .fs p {
     margin-top: 22px;
     font-size: 10px;
-    line-height: 15px;
+    line-height: 	0.9375rem;
     letter-spacing: 0.03em;
     text-transform: capitalize;
 
@@ -505,7 +505,7 @@ input::placeholder {
     text-transform: uppercase;
 
     color: #FFFFFF;
-    font-size: 14px;
+    font-size: 0.875rem;
 }
 
 .ql {
@@ -513,19 +513,19 @@ input::placeholder {
     box-sizing: border-box;
     border-radius: 4px;
     padding-top: 44px;
-    padding-bottom: 24px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-bottom: 1.5rem;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
 }
 
 .qp {
     background: #F6F6F6;
     border-radius: 4px;
 
-    padding-top: 20px;
+    padding-top: 1.25rem;
     padding-left: 16px;
     padding-bottom: 44px;
-    margin-top: 18px;
+    margin-top: 1.063rem;
 }
 
 .qp ul {
@@ -534,12 +534,12 @@ input::placeholder {
 }
 
 .qp li {
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
 }
 
 .qp li a {
     letter-spacing: 0.03em;
-    font-size: 14px;
+    font-size: 0.875rem;
     color: #333333;
     letter-spacing: 0.03em;
 }
@@ -549,7 +549,7 @@ input::placeholder {
     box-sizing: border-box;
     border-radius: 4px;
 
-    padding: 30px 11px;
+    padding: 1.875rem 11px;
 }
 
 .dow {
@@ -564,7 +564,7 @@ input::placeholder {
 
 .dow h4 {
     font-weight: 500;
-    font-size: 24px;
+    font-size: 1.5rem;
     line-height: 156.5%;
     /* or 38px */
 
@@ -582,7 +582,7 @@ input::placeholder {
     padding-left: 25px;
     color:rgba(255, 255, 255, 0.71);
     border-bottom: 5px;
-    font-size: 12px;
+    font-size: 	0.75rem;
 }
 
 .dow a:hover {
@@ -598,16 +598,16 @@ footer {
 
 footer p {
     max-width: 683px;
-    font-size: 14px;
+    font-size: 0.875rem;
     line-height: 145.19%;
-    /* or 20px */
+    /* or 1.25rem */
 
     letter-spacing: 0.03em;
 
     color: #959595;
     font-family: 'DM Sans';
-    margin-top: 20px;
-    margin-bottom: 15px;
+    margin-top: 1.25rem;
+    margin-bottom: 	0.9375rem;
 }
 
 .finfo hr {
@@ -634,7 +634,7 @@ footer p {
 .fmsg h4 {
     color: #B2B2B2;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 1.063rem;
     line-height: 145.19%;
     /* or 26px */
     
@@ -656,7 +656,7 @@ footer p {
 }
 
 .frm input::placeholder {
-    font-size: 12px;
+    font-size: 	0.75rem;
     line-height: 180%;
     /* identical to box height, or 22px */
 
@@ -677,7 +677,7 @@ border: none;
 border-radius: 4px;
 color: #e4e2e2;
 
-font-size: 12px;
+font-size: 	0.75rem;
 font-weight: 300;
 }
 
@@ -709,7 +709,7 @@ font-weight: 300;
 }
 
 .f2 a {
-    font-size: 14px;
+    font-size: 0.875rem;
     line-height: 164.5%;
     /* identical to box height, or 23px */
     
@@ -722,7 +722,7 @@ font-weight: 300;
 .f2 p {
     text-align: center;
 
-    font-size: 14px;
+    font-size: 0.875rem;
 line-height: 164.5%;
 /* identical to box height, or 23px */
 
@@ -749,7 +749,7 @@ color: #777777;
 
 .topi p {
     font-weight: 600;
-    margin-top: 15px;
+    margin-top: 	0.9375rem;
 }
 
 .dff {
@@ -763,24 +763,24 @@ color: #777777;
     gap: 63px;
 
     margin-top: 73px;
-    padding-top: 20px
+    padding-top: 1.25rem
 }
 
 
 
 .hang {
-    max-width: 317px;
+    max-width: 31.063rem;
     border: 1px solid rgba(8, 142, 59, 0.49);
     box-sizing: border-box;
     border-radius: 4px;
-    padding: 27px 20px;
-    padding-bottom: 20px;
+    padding: 27px 1.25rem;
+    padding-bottom: 1.25rem;
     margin-bottom: 64px;
 }
 
 .hang p {
     font-weight: 500;
-    font-size: 18px;
+    font-size: 1.063rem;
     line-height: 27px;
     /* identical to box height */
 
@@ -792,17 +792,17 @@ color: #777777;
 .hang ul {
     background: #F6F6F6;
     border-radius: 4px;
-    padding: 15px 0;
+    padding: 	0.9375rem 0;
     list-style: none;
     padding-top: 0;   
 }
 
 .hang li {
-    padding-left: 15px;
+    padding-left: 	0.9375rem;
 }
 
 .hang li a {
-    font-size: 14px;
+    font-size: 0.875rem;
     color: #333;
     line-height: 43px;
 }
@@ -818,33 +818,33 @@ color: #777777;
 .hang2 {
     height: 398px;
     max-width: 317px;
-    border: 1px solid rgba(8, 142, 59, 0.49);
+    border: 1px solid rgba(158, 168, 162, 0.49);
     box-sizing: border-box;
     border-radius: 4px;
-    padding: 20px 20px;
-    padding-bottom: 30px;
+    padding: 1.25rem 1.25rem;
+    padding-bottom: 1.875rem;
 }
 
 .hang2 img {
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
 }
 
 .hang2 a {
     color: #088E3B;
-    font-size: 14px;
+    font-size: 0.875rem;
     padding-left: 40px;
 }
 
 .toi, #SupportService, #faq {
-    padding: 20px 0;
+    padding: 1.25rem 0;
     display: flex;
     align-items: flex-start;
     gap: 41px;
 }
 
 article, #SupportService p {
-    font-size: 14px;
-    font-size: 14px;
+    font-size: 0.875rem;
+    font-size: 0.875rem;
     line-height: 190%;
     /* or 27px */
 
@@ -854,7 +854,7 @@ article, #SupportService p {
 
 .toi1 {
     font-weight: 500;
-    font-size: 18px;
+    font-size: 1.063rem;
     line-height: 27px;
     /* identical to box height */
 
@@ -865,7 +865,7 @@ article, #SupportService p {
 
 .toi h4, #SupportService h4 {
     font-weight: 600;
-    font-size: 18px;
+    font-size: 1.063rem;
     line-height: 27px;
     /* identical to box height */
 
@@ -885,7 +885,7 @@ article, #SupportService p {
 }
 
 .toi li {
-    font-size: 14px;
+    font-size: 0.875rem;
     line-height: 150.7%;
     /* identical to box height, or 21px */
     margin-bottom: 13px;
@@ -905,12 +905,12 @@ article, #SupportService p {
 .prood {
     display: flex;
     flex-wrap: wrap;
-    gap: 30px;
+    gap: 1.875rem;
 
 
     padding: 77px 0;
-    padding-bottom: 30px;
-    margin-top: 20px;
+    padding-bottom: 1.875rem;
+    margin-top: 1.25rem;
     margin-bottom: 64px;
     border-bottom: 2px solid rgba(8, 142, 59, 0.44);;
 }
@@ -928,26 +928,26 @@ article, #SupportService p {
 
 .pflex a {
     text-align: center;
-    font-size: 15px;
+    font-size: 	0.9375rem;
     line-height: 27px;
     /* identical to box height */
 
     letter-spacing: 0.03em;
 
     color: #333333;
-    margin-top: 17px;
+    margin-top: 1.063rem;
     font-weight: 600;
 }
 
 /* ups product */
 .fle {
     display: flex;
-    gap: 30px;
+    gap: 1.875rem;
     align-items: flex-start;
 }
 
 .fle p {
-    font-size: 14px;
+    font-size: 0.875rem;
     line-height: 26px;
     text-align: justify;
     letter-spacing: 0.03em;
@@ -972,17 +972,17 @@ article, #SupportService p {
         display: none;
     }   
     .navi a {
-        font-size: 12px;
+        font-size: 0.75rem;
     }
 
     .flex p {
         max-width: 180px;
-        font-size: 4px;
+        font-size: 	0.25rem;
         margin-bottom: 0;
     }
 
     .flex h1 {
-        font-size: 8px;
+        font-size: 0.5rem;
         
     }
 
