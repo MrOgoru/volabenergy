@@ -18,6 +18,38 @@ a {
     text-decoration: none;
 }
 
+
+/*----PRELOADER---*/
+.loader-wrapper {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #1F2332;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  .loader {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    border: 4px solid #Fff;
+    animation: loader 2s infinite ease;
+  }
+  
+  .loader-inner {
+    vertical-align: top;
+    display: inline-block;
+    width: 100%;
+    background-color: #fff;
+    animation: loader-inner 2s infinite ease-in;
+  }
+
 .navi {
     display: flex;
     justify-content: space-between;
@@ -966,6 +998,21 @@ article, #SupportService p {
 .accordion-item {
    margin-bottom: 5px;
 }
+
+
+/* ....quote......... */
+.quote {
+    max-width: 600px;
+    margin-top: 6rem;
+    margin-bottom: 10rem;
+}
+
+.quote h2 {
+    text-align: center;
+    margin-bottom:2rem;
+}
+
+
 
 @media screen and (max-width: 800px) {
     .hide-mobile {
