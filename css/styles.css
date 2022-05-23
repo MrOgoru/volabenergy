@@ -1056,9 +1056,37 @@ article, #SupportService p {
     margin-bottom:2rem;
 }
 
+.hide-desktop {
+    display: none;
+}
+
+.ass {
+    display: none;
+}
 
 
-@media screen and (max-width: 800px) {
+
+
+
+@media screen and (max-width: 1024px) {
+    .cardi {
+        box-sizing: border-box;
+       display: flex;
+       flex-direction: column;
+        
+    }
+
+    .hang2 {
+        display: none;
+    }
+
+
+    
+}
+
+
+
+@media screen and (max-width: 768px) {
     .hide-mobile {
         display: none;
     }   
@@ -1067,15 +1095,143 @@ article, #SupportService p {
     }
 
     .flex p {
-        max-width: 180px;
-        font-size: 	0.25rem;
+        max-width: 500px;
+        font-size: 	0.5rem;
         margin-bottom: 0;
     }
 
     .flex h1 {
-        font-size: 0.5rem;
+        font-size: 1.5rem;
+        font-weight: 500;
         
     }
 
+    /*  about */
+    #about {
+        padding: 50px;
+    }
+
+    #about p {
+        font-size: 1.48rem;
+        line-height: 1.5;
+    }
+
+    div.f1 {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    div.fph {
+        flex-direction: column;
+    }
+
+  
+
+    footer {
+        margin-top: 100px;
+    }
+
+      /* cf */
+      .cf {
+        gap: 10px;
+    }
+
+    .col-7, .col-5 {
+        width: 100%;
+    }
+
+   
+
     
+}
+
+
+@media screen and (max-width: 560px) {
+    .cardi { 
+        padding:10px;
+    }
+
+  header {
+      text-align: center;
+  }
+    /* cf */
+    .cf {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        padding: 0;
+    }
+
+    .cf1 {
+        width: 100%;
+    }
+
+    .call {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        text-align: center;
+        
+    }
+
+    .call .p, .call a {
+        font-size: 1.2rem;
+    }
+
+    /* training
+     */
+     .training {
+        display: none;
+     }
+
+    .products p {
+        text-align: center;
+        font-size: 13px;
+        margin-bottom: 60px;
+    }
+    .products a {
+        text-align: center;
+    }
+    .wwd {
+        width: 100%;
+    }
+    .wwd img {
+        width: 100%;
+    }
+
+  .aside {
+      margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       
+  }
+
+  .aside .dl, .fss {
+      width: 100%;
+  }
+
+
+  .flex {
+      padding: 10px;
+  }
+
+
+  .flex h1 {
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  .flex p {
+      font-size: 0.4rem;
+  }
+
+  .hang2 {
+    display: block;
+}
+
+.prood {
+    align-items: center;
+    justify-content: center;
+}
+
 }

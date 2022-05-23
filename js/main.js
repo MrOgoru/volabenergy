@@ -84,7 +84,7 @@ $(document).ready(function(){
       settings: {
         arrows: false,
         centerPadding: '40px',
-        slidesToShow: 3
+        slidesToShow: 2
       }
     },
     {
