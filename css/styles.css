@@ -1069,7 +1069,7 @@ article, #SupportService p {
 
 
 @media screen and (max-width: 1024px) {
-    .cardi {
+    .cardi, .cardd {
         box-sizing: border-box;
        display: flex;
        flex-direction: column;
@@ -1147,7 +1147,7 @@ article, #SupportService p {
 
 
 @media screen and (max-width: 560px) {
-    .cardi { 
+    .cardi, .cardd { 
         padding:10px;
     }
 
@@ -1233,5 +1233,27 @@ article, #SupportService p {
     align-items: center;
     justify-content: center;
 }
+
+
+    .toi, #SupportService, #faq {
+        flex-direction: column;
+    }
+
+
+   .cardd {
+        box-sizing: border-box;
+    display: flex;
+    flex-direction: column-reverse;
+    gap:20px;
+    padding: 10px;
+    }
+
+    .fle {
+        flex-direction: column;
+    }
+
+    .navi {
+        padding:10px;
+    }
 
 }
