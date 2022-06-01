@@ -15,10 +15,12 @@
 
 //sliders
 
+
+//who we are
 $('.slided').slick({
   autoplay: true,
   infinite: true,
-  autoplaySpeed: 6000,
+  autoplaySpeed: 4000,
   slidesToShow: 3,
   slidesToScroll: 1,
   arrows: false,
@@ -34,13 +36,14 @@ $('.slided').slick({
       breakpoint: 480,
       settings: {
         centerPadding: '40px',
-        slidesToShow: 1
+        slidesToShow: 1,
+        arrows: false
       }
     }
   ]
 });
 
-
+//products
 $(document).ready(function(){
   $('.prod').slick({
   slidesToShow: 3,
