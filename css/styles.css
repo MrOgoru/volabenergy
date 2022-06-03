@@ -1068,7 +1068,7 @@ article, #SupportService p {
 
 
 
-@media screen and (max-width: 1324px) {
+@media screen and (max-width: 1224px) {
     .cardi, .cardd {
         box-sizing: border-box;
        display: flex;
@@ -1079,10 +1079,9 @@ article, #SupportService p {
     .hang2 {
         display: none;
     }
-
-
     
 }
+
 
 
 
